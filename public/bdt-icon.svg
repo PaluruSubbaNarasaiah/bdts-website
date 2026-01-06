@@ -1,0 +1,14 @@
+<svg width="100" height="100" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="250" r="220" stroke="url(#goldGradient)" stroke-width="5" />
+  <path d="M150 150 H 300 Q 350 150 350 200 V 230 Q 350 280 300 280 H 150 V 150 Z" fill="#FF9D26" />
+  <path d="M150 300 H 300 Q 350 300 350 350 V 350 Q 350 400 300 400 H 150 V 300 Z" fill="#FF9D26" />
+  <path d="M150 280 V 300 H 300 Q 320 300 330 290 Q 340 280 340 260 V 240 Q 340 220 330 210 Q 320 200 300 200 H 150 V 280 Z" fill="#FF9D26" />
+  <path d="M100 150 V 400 H 150 V 150 H 100 Z" fill="#FF9D26" />
+  <ellipse cx="250" cy="250" rx="200" ry="100" stroke="url(#goldGradient)" stroke-width="15" fill="none" transform="rotate(30, 250, 250)" />
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFCC26" />
+      <stop offset="100%" stop-color="#FF9D26" />
+    </linearGradient>
+  </defs>
+</svg>
