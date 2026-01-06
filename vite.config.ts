@@ -11,12 +11,21 @@ export default defineConfig({
     historyApiFallback: true,
   },
   build: {
+    target: 'esnext',
+    minify: 'terser',
     rollupOptions: {
       output: {
         manualChunks: {
-          // Optional: You can split your vendor chunks for better caching
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'animation-vendor': ['framer-motion'],
+          'ui-vendor': ['lucide-react']
         },
+      },
+    },
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
       },
     },
   },
