@@ -1,8 +1,27 @@
 {
   "name": "basel-dynamics-tech",
   "private": true,
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Basel Dynamics Tech Solutions - Leading technology company specializing in SIMS education management software and custom IT services",
+  "keywords": ["SIMS", "education management", "school software", "college management", "custom IT services", "Basel Dynamics"],
+  "author": "Basel Dynamics Tech Solutions",
+  "homepage": "https://baseldtsolutions.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basel-dynamics/bdts-mainweb.git"
+  },
+  "template": "vite-react-ts",
+  "design": {
+    "framework": "React + TypeScript",
+    "styling": "Tailwind CSS",
+    "icons": "Lucide React",
+    "animations": "Framer Motion",
+    "3d": "Three.js + React Three Fiber",
+    "theme": "Dark/Light mode support",
+    "responsive": true,
+    "production-ready": true
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
