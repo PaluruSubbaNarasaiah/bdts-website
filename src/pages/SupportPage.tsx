@@ -14,7 +14,7 @@ interface FAQ {
 const faqs: FAQ[] = [
   {
     question: 'How do I request a demo of your products?',
-    answer: 'You can request a demo by visiting our Contact page and filling out the demo request form. Alternatively, you can email us at info@baseldtsolutions.com or call our sales team at +91 88865 56393.',
+    answer: 'You can request a demo by visiting our Contact page and filling out the demo request form. Alternatively, you can email us at info@baseldtsolutions.com or call our sales team at +91 88855 25531.',
     category: 'General'
   },
   {
@@ -97,7 +97,7 @@ const SupportPage: React.FC = () => {
       // Auto-reply after 1 second
       setTimeout(() => {
         setChatMessages(prev => [...prev, { 
-          text: "Thank you for your message! Our support team will get back to you shortly. For immediate assistance, please call +91 88865 56393.", 
+          text: "Thank you for your message! Our support team will get back to you shortly. For immediate assistance, please call +91 88855 25531.", 
           isUser: false 
         }]);
       }, 1000);
@@ -336,7 +336,7 @@ const SupportPage: React.FC = () => {
                 icon: <Phone className={darkMode ? 'text-primary-500' : 'text-primary-600'} size={36} />,
                 title: "Call Us",
                 subtitle: "Technical Support",
-                mainText: "+91 88865 56393",
+                mainText: "+91 88855 25531",
                 details: [
                   "Office Hours: Monday - Friday: 9:30 AM - 6:30 PM",
                   "Customer Support: 24/7",

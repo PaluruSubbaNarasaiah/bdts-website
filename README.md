@@ -138,7 +138,7 @@ Tirupati, Andhra Pradesh - 517501
 ```
 
 ### 📞 **Get in Touch**
-- **Phone:** +91 88865 56393
+- **Phone:** +91 88855 25531
 - **Email:** info@baseldtsolutions.com
 - **Support:** support@baseldtsolutions.com
 

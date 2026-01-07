@@ -115,7 +115,7 @@ const ContactPage: React.FC = () => {
   <p className={`font-semibold ${
     darkMode ? 'text-gray-100' : 'text-gray-800'
   }`}>
-    +91 88865 56393
+    +91 88855 25531
   </p>
 </Card>
 
