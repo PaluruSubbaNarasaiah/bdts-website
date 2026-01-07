@@ -45,19 +45,19 @@ const Footer: React.FC = () => {
               Leading technology company specializing in software applications and custom IT services.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
+              <a href="https://www.facebook.com/profile.php?id=61576002102301" target="_blank" rel="noopener noreferrer" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
                 <Facebook size={20} />
               </a>
-              <a href="#" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
+              <a href="https://x.com/Basel_DTSPL?t=2QkFImPDtuk8a15wnZphDw&s=09" target="_blank" rel="noopener noreferrer" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
                 <Twitter size={20} />
               </a>
-              <a href="#" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
+              <a href="https://www.linkedin.com/baseldynamictechsolutions" target="_blank" rel="noopener noreferrer" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
                 <Linkedin size={20} />
               </a>
-              <a href="#" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
+              <a href="https://www.instagram.com/basel_dynamic_tech_solutions?igsh=anUzM2x5NTQzbHBv" target="_blank" rel="noopener noreferrer" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
                 <Instagram size={20} />
               </a>
-              <a href="#" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
+              <a href="https://github.com/BaselDynamics" target="_blank" rel="noopener noreferrer" className={`text-gray-400 hover:${darkMode ? 'text-primary-500' : 'text-primary-500'} transition-colors`}>
                 <Github size={20} />
               </a>
             </div>
