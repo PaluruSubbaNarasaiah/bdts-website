@@ -12,7 +12,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    minify: 'terser',
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
@@ -20,12 +20,6 @@ export default defineConfig({
           'animation-vendor': ['framer-motion'],
           'ui-vendor': ['lucide-react']
         },
-      },
-    },
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
       },
     },
   },
